@@ -21,10 +21,10 @@ android {
 
     defaultConfig {
         applicationId = "com.kuneosu.mintoners"
-        minSdk = 24
-        targetSdk = 34
-        versionCode = 14  // 기존 앱의 마지막 버전 코드 + 1
-        versionName = "2.0.0"  // Flutter 버전으로 업데이트
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
     }
 
     buildTypes {

@@ -1,4 +1,4 @@
-package com.example.mintoners_flt
+package com.kuneosu.mintoners
 
 import io.flutter.embedding.android.FlutterActivity
 
